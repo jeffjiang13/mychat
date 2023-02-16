@@ -1,7 +1,7 @@
 const { connect } = require('getstream');
 const bcrypt = require('bcrypt');
 const StreamChat = require('stream-chat').StreamChat;
-const crypto = require('crypto');
+const crypto = require('node:crypto');
 
 require('dotenv').config({});
 
