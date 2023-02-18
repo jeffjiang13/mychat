@@ -1,12 +1,12 @@
 const { connect } = require('getstream');
 const bcrypt = require('bcrypt');
 const StreamChat = require('stream-chat').StreamChat;
-const crypto = require('node:crypto');
+const crypto = require('crypto');
 
-require('dotenv').config({});
+require('dotenv').config();
 
-const api_key = 'mqtpa6qkznmt';
-const api_secret = 'tujpsjkmegnubxwdz2fs6848vfxf43keb9cjcdzem6267bs9sc6qgj8kta4xcd8q';
+const api_key = 'k83ueydbmk7g';
+const api_secret = 'cjv8x73s623mhpsh2fqry2sjmbbpc9c8yaq9f84cbq9y99kkcp6rrp55dsd9mx32';
 const app_id = 1234831;
 
 const signup = async (req, res) => {
